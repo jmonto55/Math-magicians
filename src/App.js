@@ -7,7 +7,11 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          My first <code>React app</code> is working.
+          My first
+          {' '}
+          <code>React app</code>
+          {' '}
+          is working.
         </p>
         <a
           className="App-link"
