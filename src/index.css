@@ -25,3 +25,81 @@ code {
     'Courier New',
     monospace;
 }
+
+.wrapper {
+  width: 30%;
+  max-width: 500px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.wrapper div {
+  border: 0.5px solid #8586936a;
+  text-align: center;
+  padding: 20px 30px;
+  cursor: pointer;
+}
+
+.total {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  display: flex;
+  justify-content: flex-end;
+  background-color: #858693;
+  color: white;
+}
+
+.zero {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.ac,
+.plus-minus,
+.percent,
+.seven,
+.eight,
+.nine,
+.four,
+.five,
+.six,
+.one,
+.two,
+.three,
+.zero,
+.point {
+  background-color: #e0e0e0;
+}
+
+.ac:active,
+.plus-minus:active,
+.percent:active,
+.seven:active,
+.eight:active,
+.nine:active,
+.four:active,
+.five:active,
+.six:active,
+.one:active,
+.two:active,
+.three:active,
+.zero:active,
+.point:active {
+  background-color: #adaaaa;
+}
+
+.divide,
+.multiply,
+.minus,
+.plus,
+.equal {
+  background-color: #f4913e;
+}
+
+.divide:active,
+.multiply:active,
+.minus:active,
+.plus:active,
+.equal:active {
+  background-color: #c2712f;
+}
