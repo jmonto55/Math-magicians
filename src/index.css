@@ -14,6 +14,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #272727;
 }
 
 code {
@@ -38,6 +39,7 @@ code {
   text-align: center;
   padding: 20px 30px;
   cursor: pointer;
+  transition: ease-in-out all 0.4s;
 }
 
 .total {
@@ -86,6 +88,7 @@ code {
 .zero:active,
 .point:active {
   background-color: #adaaaa;
+  transform: scale(0.95);
 }
 
 .divide,
@@ -102,4 +105,5 @@ code {
 .plus:active,
 .equal:active {
   background-color: #c2712f;
+  transform: scale(0.95);
 }
