@@ -98,22 +98,28 @@ In order to run this project you need:
 
 To get a local copy up and running follow these simple example steps.
 
-- Go to this link https://github.com/jmonto55/Math-magicians
-- In your command terminal go to the directory where you want to clone the repository.
-- Write `git clone https://github.com/jmonto55/Math-magicians.git`
-- Go to the repository folder in your command terminal using `cd 
-Math-magicians`.
-- Run `code .` to open a local copy of the project in your code editor.
+Clone this repository in the desired folder:
+```
+cd my-folder
+git clone https://github.com/jmonto55/Math-magicians.git
+```
 
 ### Install
 
-- Run `npm install` to install all dev dependencies for Linters, Jest & Babel.
+To install this project:
+```
+cd Math-magicians
+code .
+npm install
+```
 
 ### Usage
 
 To run the project, execute the following command:
 
-- Run `npm start` in your command terminal.
+```
+npm start
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
