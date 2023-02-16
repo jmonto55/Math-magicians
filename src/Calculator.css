@@ -1,5 +1,10 @@
-body {
+* {
+  box-sizing: border-box;
   margin: 0;
+  padding: 0;
+}
+
+body {
   font-family:
     -apple-system,
     BlinkMacSystemFont,
@@ -17,24 +22,24 @@ body {
   background-color: #272727;
 }
 
-code {
-  font-family:
-    source-code-pro,
-    Menlo,
-    Monaco,
-    Consolas,
-    'Courier New',
-    monospace;
+.main_container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
 }
 
-.wrapper {
-  width: 30%;
-  max-width: 500px;
+.grid_wrapper {
+  margin: auto;
+  width: 50%;
+  max-width: 450px;
+  min-width: 350px;
   display: grid;
   grid-template-columns: auto auto auto auto;
 }
 
-.wrapper div {
+.grid_wrapper button,
+.grid_wrapper div {
+  font-size: 20px;
   border: 0.5px solid #8586936a;
   text-align: center;
   padding: 20px 30px;
