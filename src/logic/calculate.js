@@ -75,7 +75,7 @@ export default function calculate(obj, buttonName) {
     }
     // '=' with no operation, nothing to do
     return {
-      total: operate(obj.total, obj.next, obj.operation),
+      total: 0,
     };
   }
 
