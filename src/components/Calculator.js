@@ -1,17 +1,15 @@
 import React, { useState } from 'react';
 import calculate from '../logic/calculate';
 
-function Calculator() {
+const Calculator = () => {
   const [obj, setObj] = useState({
     total: 0,
-    next: null,
-    operation: null,
   });
 
-  function onClickHandler(e) {
+  const onClickHandler = (e) => {
     const name = e.target;
     setObj(calculate(obj, name.innerText));
-  }
+  };
 
   const { total, operation, next } = obj;
 
@@ -26,11 +24,11 @@ function Calculator() {
         <button className="ac" type="button" onClick={onClickHandler}>AC</button>
         <button className="plus-minus" type="button" onClick={onClickHandler}>+/-</button>
         <button className="percent" type="button" onClick={onClickHandler}>%</button>
-        <button className="divide" type="button" onClick={onClickHandler}>/</button>
+        <button className="divide" type="button" onClick={onClickHandler}>÷</button>
         <button className="seven" type="button" onClick={onClickHandler}>7</button>
         <button className="eight" type="button" onClick={onClickHandler}>8</button>
         <button className="nine" type="button" onClick={onClickHandler}>9</button>
-        <button className="multiply" type="button" onClick={onClickHandler}>*</button>
+        <button className="multiply" type="button" onClick={onClickHandler}>x</button>
         <button className="four" type="button" onClick={onClickHandler}>4</button>
         <button className="five" type="button" onClick={onClickHandler}>5</button>
         <button className="six" type="button" onClick={onClickHandler}>6</button>
@@ -45,6 +43,6 @@ function Calculator() {
       </div>
     </div>
   );
-}
+};
 
 export default Calculator;
