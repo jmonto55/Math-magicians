@@ -1,15 +1,15 @@
 import React, { useState } from 'react';
 import calculate from '../logic/calculate';
 
-function Calculator() {
+const Calculator = () => {
   const [obj, setObj] = useState({
     total: 0,
   });
 
-  function onClickHandler(e) {
+  const onClickHandler = (e) => {
     const name = e.target;
     setObj(calculate(obj, name.innerText));
-  }
+  };
 
   const { total, operation, next } = obj;
 
@@ -43,6 +43,6 @@ function Calculator() {
       </div>
     </div>
   );
-}
+};
 
 export default Calculator;

@@ -26,6 +26,8 @@ body {
   width: 100vw;
   height: 100vh;
   display: flex;
+  border: 0.5px solid #8586936a;
+  background-color: #272727;
 }
 
 .grid_wrapper {
@@ -34,11 +36,13 @@ body {
   max-width: 450px;
   min-width: 350px;
   display: grid;
+  gap: 2px;
   grid-template-columns: auto auto auto auto;
 }
 
 .grid_wrapper button,
 .grid_wrapper div {
+  border-radius: 2.5px;
   font-size: 20px;
   border: 0.5px solid #8586936a;
   text-align: center;
