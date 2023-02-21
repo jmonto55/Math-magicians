@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import calculate from '../logic/calculate';
+import styles from '../sass/Calculator.module.scss';
 
 const Calculator = () => {
   const [obj, setObj] = useState({
@@ -14,32 +15,32 @@ const Calculator = () => {
   const { total, operation, next } = obj;
 
   return (
-    <div className="main_container">
-      <div className="grid_wrapper">
-        <div className="total" type="button">
+    <div className={styles.main_container}>
+      <div className={styles.grid_wrapper}>
+        <div className={styles.total} type="button">
           { total }
           { operation }
           { next }
         </div>
-        <button className="ac" type="button" onClick={onClickHandler}>AC</button>
-        <button className="plus-minus" type="button" onClick={onClickHandler}>+/-</button>
-        <button className="percent" type="button" onClick={onClickHandler}>%</button>
-        <button className="divide" type="button" onClick={onClickHandler}>÷</button>
-        <button className="seven" type="button" onClick={onClickHandler}>7</button>
-        <button className="eight" type="button" onClick={onClickHandler}>8</button>
-        <button className="nine" type="button" onClick={onClickHandler}>9</button>
-        <button className="multiply" type="button" onClick={onClickHandler}>x</button>
-        <button className="four" type="button" onClick={onClickHandler}>4</button>
-        <button className="five" type="button" onClick={onClickHandler}>5</button>
-        <button className="six" type="button" onClick={onClickHandler}>6</button>
-        <button className="minus" type="button" onClick={onClickHandler}>-</button>
-        <button className="one" type="button" onClick={onClickHandler}>1</button>
-        <button className="two" type="button" onClick={onClickHandler}>2</button>
-        <button className="three" type="button" onClick={onClickHandler}>3</button>
-        <button className="plus" type="button" onClick={onClickHandler}>+</button>
-        <button className="zero" type="button" onClick={onClickHandler}>0</button>
-        <button className="point" type="button" onClick={onClickHandler}>.</button>
-        <button className="equal" type="button" onClick={onClickHandler}>=</button>
+        <button className={styles.ac} type="button" onClick={onClickHandler}>AC</button>
+        <button className={styles.plus_minus} type="button" onClick={onClickHandler}>+/-</button>
+        <button className={styles.percent} type="button" onClick={onClickHandler}>%</button>
+        <button className={styles.divide} type="button" onClick={onClickHandler}>÷</button>
+        <button className={styles.seven} type="button" onClick={onClickHandler}>7</button>
+        <button className={styles.eight} type="button" onClick={onClickHandler}>8</button>
+        <button className={styles.nine} type="button" onClick={onClickHandler}>9</button>
+        <button className={styles.multiply} type="button" onClick={onClickHandler}>x</button>
+        <button className={styles.four} type="button" onClick={onClickHandler}>4</button>
+        <button className={styles.five} type="button" onClick={onClickHandler}>5</button>
+        <button className={styles.six} type="button" onClick={onClickHandler}>6</button>
+        <button className={styles.minus} type="button" onClick={onClickHandler}>-</button>
+        <button className={styles.one} type="button" onClick={onClickHandler}>1</button>
+        <button className={styles.two} type="button" onClick={onClickHandler}>2</button>
+        <button className={styles.three} type="button" onClick={onClickHandler}>3</button>
+        <button className={styles.plus} type="button" onClick={onClickHandler}>+</button>
+        <button className={styles.zero} type="button" onClick={onClickHandler}>0</button>
+        <button className={styles.point} type="button" onClick={onClickHandler}>.</button>
+        <button className={styles.equal} type="button" onClick={onClickHandler}>=</button>
       </div>
     </div>
   );
