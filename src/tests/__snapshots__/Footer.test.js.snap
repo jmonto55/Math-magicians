@@ -5,7 +5,6 @@ exports[`Test suite for the Footer component Should render a snapshot of the Foo
   class="footer"
   data-testid="footer"
 >
-  footer
   <p>
     © 2023 Jose Montoya. All rights reserved.
   </p>

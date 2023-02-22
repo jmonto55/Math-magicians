@@ -2,14 +2,13 @@
   width: 100vw;
   display: flex;
   justify-content: center;
-}
-
-.main_container {
-  max-width: 1400px;
-  width: 100vw;
-  height: 70vh;
-  display: flex;
-  justify-content: center;
+  .main_container {
+    max-width: 1400px;
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+  }
 }
 
 .text_wrapper {
