@@ -5,9 +5,13 @@
     flex-direction: column;
     text-align: center;
     justify-content: space-between;
-    padding: 10%;
+    align-items: center;
+    padding: 100px;
     color: #e7e7e7;
     h1 {
-        font-size: 4rem;
+      font-size: 4rem;
+    }
+    h2 {
+      max-width: 1200px;
     }
 }

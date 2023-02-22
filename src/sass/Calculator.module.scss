@@ -1,6 +1,29 @@
-.main_container {
+.giant_wrapper {
   width: 100vw;
   display: flex;
+  justify-content: center;
+}
+
+.main_container {
+  max-width: 1400px;
+  width: 100vw;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+}
+
+.text_wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+  color: #e7e7e7;
+  h1 {
+    font-size: 4rem;
+    margin: 45px 0;
+    }
+  p {
+    font-size: 2rem;
+  }
 }
 
 .grid_wrapper {
