@@ -8,20 +8,22 @@ const Navbar = () => {
     fontSize: '1.2rem',
   };
   return (
-
-    <nav className={styles.navbar}>
-      <ul className={styles.navbar_list}>
-        <li>
-          <Link style={linkStyles} to="/">Home</Link>
-        </li>
-        <li>
-          <Link style={linkStyles} to="/calculator">Calculator</Link>
-        </li>
-        <li>
-          <Link style={linkStyles} to="/quote">Quote</Link>
-        </li>
-      </ul>
-    </nav>
+    <div className={styles.navbar_wrapper}>
+      <nav className={styles.navbar}>
+        <i className={styles.wizard_hat} />
+        <ul className={styles.navbar_list}>
+          <li>
+            <Link style={linkStyles} to="/">Home</Link>
+          </li>
+          <li>
+            <Link style={linkStyles} to="/calculator">Calculator</Link>
+          </li>
+          <li>
+            <Link style={linkStyles} to="/quote">Quote</Link>
+          </li>
+        </ul>
+      </nav>
+    </div>
   );
 };
 
