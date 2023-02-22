@@ -54,7 +54,7 @@
   grid-column-end: 5;
   display: flex;
   justify-content: flex-end;
-  background-color: #858693;
+  background-color: #464646;
   color: white;
 }
 
@@ -103,7 +103,7 @@
 .minus,
 .plus,
 .equal {
-  background-color: #f4913e;
+  background-color: #404077;
 }
 
 .divide:active,
@@ -111,6 +111,6 @@
 .minus:active,
 .plus:active,
 .equal:active {
-  background-color: #c2712f;
+  background-color: #343460;
   transform: scale(0.95);
 }
