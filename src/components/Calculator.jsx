@@ -16,13 +16,13 @@ const Calculator = () => {
 
   return (
     <div className={styles.giant_wrapper}>
-      <div className={styles.main_container}>
+      <div className={styles.main_container} data-testid="main_container">
         <div className={styles.text_wrapper}>
           <h1>Math Magicians</h1>
           <p>Lets do some math!</p>
         </div>
         <div className={styles.grid_wrapper}>
-          <div className={styles.total} type="button">
+          <div data-testid="total" className={styles.total} type="button">
             { total }
             { operation }
             { next }

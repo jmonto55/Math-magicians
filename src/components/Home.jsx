@@ -1,7 +1,7 @@
 import styles from '../sass/Home.module.scss';
 
 const Home = () => (
-  <div className={styles.home_wrapper}>
+  <div className={styles.home_wrapper} data-testid="home">
     <h1>Math Magicians</h1>
     <h2>Welcome to our page!</h2>
     <p>
