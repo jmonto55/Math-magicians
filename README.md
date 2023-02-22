@@ -121,6 +121,14 @@ To run the project, execute the following command:
 npm start
 ```
 
+### Run Tests
+
+To run the project, execute the following command:
+
+```
+npm test
+```
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
