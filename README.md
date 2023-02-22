@@ -33,7 +33,7 @@
 
 # 📖 Math Magicians <a name="about-project"></a>
 
-**Math Magicians** is a webapp built using React.
+**Math Magicians** is a web application inspired by Math, it has three routes: home, a calculate route containing a fully functional calculator, and a final route with a cool math quote.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -45,10 +45,10 @@
     <li><a href="https://reactjs.org/">React.js</a></li>
   </ul>
   <ul>
-    <li><a href="https://html.com/">Html</a></li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5">HTML</a></li>
   </ul>
   <ul>
-    <li><a href="hhttps://www.w3schools.com/css/">CSS</a></li>
+    <li><a href="https://sass-lang.com/">SASS</a></li>
   </ul>
 </details>
 
@@ -70,7 +70,8 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **Math Magicians is currently on construction so it does not have features yet.**
+- **Users can make any math operation using the calculator section**
+- **User can access a cool Math quote**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -93,6 +94,7 @@ To get a local copy up and running, follow these steps.
 In order to run this project you need:
 - A working computer.
 - Connection to internet.
+- [npm](https://www.npmjs.com/) and [Node.js](https://nodejs.org/en/) installed, if you don't have them, please follow this [simple installation guide](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).
 
 ### Setup
 
