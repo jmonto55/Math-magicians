@@ -87,7 +87,7 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-To get a local copy up and running, follow these steps.
+To get a local copy of this project and run it in your computer, follow these steps.
 
 ### Prerequisites
 
