@@ -36,16 +36,16 @@ const Calculator = () => {
           <button className={styles.nine} type="button" onClick={onClickHandler}>9</button>
           <button className={styles.multiply} type="button" onClick={onClickHandler}>x</button>
           <button className={styles.four} type="button" onClick={onClickHandler}>4</button>
-          <button title="5" className={styles.five} type="button" onClick={onClickHandler}>5</button>
+          <button className={styles.five} type="button" onClick={onClickHandler}>5</button>
           <button className={styles.six} type="button" onClick={onClickHandler}>6</button>
-          <button title="-" className={styles.minus} type="button" onClick={onClickHandler}>-</button>
+          <button className={styles.minus} type="button" onClick={onClickHandler}>-</button>
           <button className={styles.one} type="button" onClick={onClickHandler}>1</button>
           <button className={styles.two} type="button" onClick={onClickHandler}>2</button>
           <button className={styles.three} type="button" onClick={onClickHandler}>3</button>
           <button className={styles.plus} type="button" onClick={onClickHandler}>+</button>
           <button className={styles.zero} type="button" onClick={onClickHandler}>0</button>
           <button className={styles.point} type="button" onClick={onClickHandler}>.</button>
-          <button title="=" className={styles.equal} type="button" onClick={onClickHandler}>=</button>
+          <button className={styles.equal} type="button" onClick={onClickHandler}>=</button>
         </div>
       </div>
     </div>

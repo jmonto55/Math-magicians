@@ -81,7 +81,6 @@ exports[`Test suite for the Calculator component Should render a snapshot of the
     </button>
     <button
       class="five"
-      title="5"
       type="button"
     >
       5
@@ -94,7 +93,6 @@ exports[`Test suite for the Calculator component Should render a snapshot of the
     </button>
     <button
       class="minus"
-      title="-"
       type="button"
     >
       -
@@ -137,7 +135,6 @@ exports[`Test suite for the Calculator component Should render a snapshot of the
     </button>
     <button
       class="equal"
-      title="="
       type="button"
     >
       =
