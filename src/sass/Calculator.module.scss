@@ -2,6 +2,7 @@
   width: 100vw;
   display: flex;
   justify-content: center;
+
   .main_container {
     max-width: 1400px;
     width: 100vw;
@@ -35,17 +36,17 @@
   display: grid;
   gap: 2px;
   grid-template-columns: auto auto auto auto;
-}
 
-.grid_wrapper button,
-.grid_wrapper div {
-  border-radius: 2.5px;
-  font-size: 20px;
-  border: 0.5px solid #8586936a;
-  text-align: center;
-  padding: 20px 30px;
-  cursor: pointer;
-  transition: ease-in-out all 0.4s;
+  button,
+  div {
+    border-radius: 2.5px;
+    font-size: 20px;
+    border: 0.5px solid #8586936a;
+    text-align: center;
+    padding: 20px 30px;
+    cursor: pointer;
+    transition: ease-in-out all 0.4s;
+  }
 }
 
 .total {
