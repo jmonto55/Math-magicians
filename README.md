@@ -125,7 +125,7 @@ npm start
 
 ### Run Tests
 
-To run the project, execute the following command:
+To run the project tests, execute the following command:
 
 ```
 npm test
